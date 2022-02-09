@@ -34,7 +34,7 @@ def getPrices():
 
   except (ConnectionError, Timeout, TooManyRedirects) as e:
     print(e)
-    print ("ran out of credits dumbass")
+    print ("ran out of credits")
 
 def currentTime():
   t = time.localtime()
